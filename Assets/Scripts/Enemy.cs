@@ -5,6 +5,8 @@ public class Enemy : MonoBehaviour
 {
     public AIPath aiPath;
 
+    public Animator enemyAnimator;
+
     void Update()
     {
         // If Enemy is moving right, its scale will flip to the right

@@ -2389,18 +2389,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1652013908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &650717745
-MonoBehaviour:
+--- !u!95 &650717745
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650717741}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24cdb14c0930f4440858574a6dd6cd55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e9f1d828ee5b6040a43052cc8f93d74, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &679231356
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,7 +5805,7 @@ GameObject:
   - component: {fileID: 1521360459}
   - component: {fileID: 1521360460}
   m_Layer: 8
-  m_Name: Rat_Idle_0
+  m_Name: Rat_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6351,7 +6361,7 @@ GameObject:
   - component: {fileID: 1652013910}
   - component: {fileID: 1652013909}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Cat_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6400,10 +6410,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 3.04
+  radius: 1.71
   height: 3
   canMove: 1
-  maxSpeed: 6
+  maxSpeed: 8
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -6423,7 +6433,7 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 1.98
+  pickNextWaypointDist: 1.19
   endReachedDistance: 0.2
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
