@@ -73,3 +73,22 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/NoodlesART/Menu_art_Logo.jpg.meta
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+Assets/NoodlesART/Menu_Button_Start.png.meta
+Assets/NoodlesART/Menu_Plate.png.meta
+Assets/NoodlesART/Menu_Quit_Yellow.png.meta
+Assets/NoodlesART/Menu_Button_Quit.png.meta
+Assets/NoodlesART/Menu_Start_Yellow.png.meta
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/ShaderGraphSettings.asset
+Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D.meta
+Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D/LightingData.asset
+Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D/LightingData.asset.meta
+Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D/ReflectionProbe-0.exr
+Assets/AstarPathfindingProject/ExampleScenes/Example15_2D/2D/ReflectionProbe-0.exr.meta
+ProjectSettings/EditorBuildSettings.asset
+Assets/NoodlesART/Inventory_Art.jpg.meta
