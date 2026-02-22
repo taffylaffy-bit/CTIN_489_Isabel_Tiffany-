@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     private SpriteRenderer rend;
+
     private bool canHide = false;
     private bool hiding = false;
 
@@ -29,22 +30,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        // When the player presses E, they will hide behind object
+        // Toggle hiding only when inside a hiding spot
         if (canHide && Input.GetKeyDown(KeyCode.E))
         {
-            Physics2D.IgnoreLayerCollision(8, 9, true);
-            rend.sortingOrder = 2;
-            hiding = true;
-            Debug.Log("I'm hiding");
-
-        }
-        // Player isn't hiding and didn't press E
-        else
-        {
-            Physics2D.IgnoreLayerCollision(8, 9, false);
-            rend.sortingOrder = 5;
-            hiding = false;
-            Debug.Log("I'm am not hiding");
+            hiding = true; // <-- the toggle 
+            UpdateHidingState();
         }
     }
 
@@ -57,6 +47,41 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = movement * moveSpeed;
         else
             rb.velocity = Vector2.zero;
+    }
+
+    private void UpdateHidingState()
+    {
+        if (hiding)
+        {
+            Physics2D.IgnoreLayerCollision(8, 9, true);
+            rend.sortingOrder = 2;
+            Debug.Log("I'm hiding");
+        }
+        else
+        {
+            Physics2D.IgnoreLayerCollision(8, 9, false);
+            rend.sortingOrder = 5;
+            Debug.Log("I'm not hiding");
+        }
+    }
+
+    // Trigger collider on hiding spot
+    private void OnTriggrtEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("HidingSpot"))
+        {
+            canHide = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("HidingSpot"))
+        {
+            canHide = false;
+            hiding = false;
+            UpdateHidingState();
+        }
     }
 
     // If triggered, it will check if it has the tag and player will be able to hide
@@ -74,6 +99,8 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("HidingSpot"))
         {
             canHide = false;
+            hiding = false;
+            UpdateHidingState();
         }
     }
 }

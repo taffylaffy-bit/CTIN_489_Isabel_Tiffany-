@@ -18,9 +18,11 @@ public class Inventory : MonoBehaviour
             if (inventory.activeSelf)
             {
               inventory.SetActive(false);
+                Time.timeScale = 1f;
             } else
             {
                 inventory.SetActive(true);
+                Time.timeScale = 0f;
             }
         }
     }
