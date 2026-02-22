@@ -1,4 +1,5 @@
 using UnityEngine;
+using Pathfinding;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,9 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     private SpriteRenderer rend;
-
     private bool canHide = false;
     private bool hiding = false;
+
+    private IAstarAI[] enemies;
 
     Vector2 movement;
 
@@ -17,6 +19,13 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
+
+        AIPath[] aiPaths = FindObjectsOfType<AIPath> ();
+        enemies = new IAstarAI[aiPaths.Length];
+        for (int i = 0; i < aiPaths.Length; i++)
+        {
+            enemies[i] = aiPaths[i];
+        }
     }
 
     // Update is called once per frame
@@ -56,12 +65,26 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.IgnoreLayerCollision(8, 9, true);
             rend.sortingOrder = 2;
             Debug.Log("I'm hiding");
+
+            // Stop enemies from chasing
+            foreach (var enemy in enemies)
+            {
+                enemy.canMove = false;
+                enemy.destination = enemy.position; // freeze immediately
+            }
         }
         else
         {
             Physics2D.IgnoreLayerCollision(8, 9, false);
             rend.sortingOrder = 5;
             Debug.Log("I'm not hiding");
+
+            // Restore chasing 
+            foreach (var enemy in enemies)
+            {
+                enemy.canMove = true;
+                enemy.destination = transform.position; // resume chasing
+            }
         }
     }
 
