@@ -12,15 +12,17 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             Debug.Log("InventoryOpen");
             if (inventory.activeSelf)
             {
               inventory.SetActive(false);
+                Time.timeScale = 1f;
             } else
             {
                 inventory.SetActive(true);
+                Time.timeScale = 0f;
             }
         }
     }
