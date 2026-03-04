@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: e0c7df47404111044a544604305dc424
+  - enabled: 1
+    path: Assets/Scenes/OpeningSequence.unity
+    guid: 5253e12bbe5f6ff45ba0d90579f456f5
+  - enabled: 1
+    path: Assets/Scenes/CookingScene.unity
+    guid: 73526af565829a94cb36067b27e00820
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

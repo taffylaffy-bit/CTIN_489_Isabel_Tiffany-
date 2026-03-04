@@ -15,7 +15,7 @@ public class StartMenuScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("OpeningSequence");
     }
 
     public void QuitGame()
