@@ -1,16 +1,15 @@
 using UnityEngine;
+using Unity.Services.Core;
+using Unity.Services.Analytics;
+using System.Threading.Tasks;
 
 public class AnalyticsManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    async void Start()
     {
-        
-    }
+        await UnityServices.InitializeAsync();
+        AnalyticsService.Instance.StartDataCollection();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Analytics started!");
     }
 }
