@@ -53,9 +53,9 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
 
         if (hiding)
-            rb.velocity = movement * moveSpeed;
+            rb.linearVelocity = movement * moveSpeed;
         else
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
     }
 
     private void UpdateHidingState()
