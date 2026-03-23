@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 2105d7e94b863b34b94ce7eb95f43449
+guid: 3487ca8b8b0494947a80617911fb92d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6469482785641334516
-    second: Level2_Silhouette_0
+      213: -8503259727715566466
+    second: Cat_Left_0
+  - first:
+      213: 4725260328255910512
+    second: Cat_Left_1
+  - first:
+      213: -1950456178257883710
+    second: Cat_Left_2
+  - first:
+      213: 1216899324399850918
+    second: Cat_Left_3
+  - first:
+      213: 4403445615163283516
+    second: Cat_Left_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level2_Silhouette_0
+      name: Cat_Left_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 19
-        width: 442
-        height: 201
+        x: 25
+        y: 15
+        width: 470
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c09f759eea7c736a0800000000000000
-      internalID: -6469482785641334516
+      spriteID: e7cf0a0745a5ef980800000000000000
+      internalID: -8503259727715566466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Left_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 14
+        width: 361
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07270f8ab3f739140800000000000000
+      internalID: 4725260328255910512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Left_2
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 5
+        width: 320
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd09f890769ee4e0800000000000000
+      internalID: -1950456178257883710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 25
+        width: 315
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a51446fc7b43e010800000000000000
+      internalID: 1216899324399850918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Left_4
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 29
+        width: 294
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c381f8fd47e2c1d30800000000000000
+      internalID: 4403445615163283516
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Level2_Silhouette_0: -6469482785641334516
+      Cat_Left_0: -8503259727715566466
+      Cat_Left_1: 4725260328255910512
+      Cat_Left_2: -1950456178257883710
+      Cat_Left_3: 1216899324399850918
+      Cat_Left_4: 4403445615163283516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

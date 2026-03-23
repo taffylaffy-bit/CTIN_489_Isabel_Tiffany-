@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2105d7e94b863b34b94ce7eb95f43449
+guid: 84f427e811abfc647beee73be61a35db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6469482785641334516
-    second: Level2_Silhouette_0
+      213: 394809202106853301
+    second: Opening_Blue_0
+  - first:
+      213: -5937709379968436709
+    second: Opening_Blue_1
+  - first:
+      213: -4790709291739594579
+    second: Opening_Blue_2
+  - first:
+      213: 6990825474073883151
+    second: Opening_Blue_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level2_Silhouette_0
+      name: Opening_Blue_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 19
-        width: 442
-        height: 201
+        x: 6
+        y: 30
+        width: 34
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c09f759eea7c736a0800000000000000
-      internalID: -6469482785641334516
+      spriteID: 5b762a5a0e4aa7500800000000000000
+      internalID: 394809202106853301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opening_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16f97b37c4099da0800000000000000
+      internalID: -5937709379968436709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opening_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 19
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0c2bb084bf38db0800000000000000
+      internalID: -4790709291739594579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opening_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02fceccab6640160800000000000000
+      internalID: 6990825474073883151
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Level2_Silhouette_0: -6469482785641334516
+      Opening_Blue_0: 394809202106853301
+      Opening_Blue_1: -5937709379968436709
+      Opening_Blue_2: -4790709291739594579
+      Opening_Blue_3: 6990825474073883151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

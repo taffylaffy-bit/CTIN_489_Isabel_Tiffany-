@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 2105d7e94b863b34b94ce7eb95f43449
+guid: f299120e06029c14cba04323933ccb8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6469482785641334516
-    second: Level2_Silhouette_0
+      213: 1607277561886086308
+    second: Cat_Up_0
+  - first:
+      213: 4417591409918630108
+    second: Cat_Up_1
+  - first:
+      213: -1559576824952686609
+    second: Cat_Up_2
+  - first:
+      213: 1487455951373227182
+    second: Cat_Up_3
+  - first:
+      213: 1397744299261941649
+    second: Cat_Up_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level2_Silhouette_0
+      name: Cat_Up_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 19
-        width: 442
-        height: 201
+        x: 7
+        y: 61
+        width: 133
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c09f759eea7c736a0800000000000000
-      internalID: -6469482785641334516
+      spriteID: 4a41da34d623e4610800000000000000
+      internalID: 1607277561886086308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Up_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 70
+        width: 89
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8540f5bff6e4d30800000000000000
+      internalID: 4417591409918630108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Up_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 71
+        width: 99
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe773c404254b5ae0800000000000000
+      internalID: -1559576824952686609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Up_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 26
+        width: 126
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea454a09e4184a410800000000000000
+      internalID: 1487455951373227182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_Up_4
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 12
+        width: 94
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197d55cd809c56310800000000000000
+      internalID: 1397744299261941649
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Level2_Silhouette_0: -6469482785641334516
+      Cat_Up_0: 1607277561886086308
+      Cat_Up_1: 4417591409918630108
+      Cat_Up_2: -1559576824952686609
+      Cat_Up_3: 1487455951373227182
+      Cat_Up_4: 1397744299261941649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
