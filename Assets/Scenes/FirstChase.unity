@@ -9826,7 +9826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACAn+scu1TDdAIAAC4FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziUjPht6ax1CekjClHZy8UW21liDLHkkOUAy/PeuZBm7lAvy2w+993btTyKUrSF32myM4M+aA/k2Iv5Mvoz64BOc2F6rnfiALudNcFf6JBZyfjEnNOITX2Z1Bc6I/LvaS59MEWyUKLSp1nwPibbOIlwwaQFDRjtfrRD6HJET/o1XvuSMp+lXf/rA04qOLnjMQTkwg1R6t4i5eKL+dz+bx5r7u9WcLmfz9Zjeh+pG5ZJVNXAvpW8yWcxij9Uk5ClUGVO8olxLKWykSNy5DhYkrLYNCsQELhhKDrwmd75XCWJfOi9gWP5aFBZcdMSw84Mw6F3bl/zQraEVs4eW2juTTaBAp/NAq+36/F/CuGVdGF09dRdPqL/ElSI//GLnnFk3sHwIPwy4B4uOTB5YJuGtBPWiN0Y3imPQmcaXNhamD/3jVVtSQn7o8ZbqDdjUvefdhLv5eg2XIP+USFFlYaDzFthJHSwPawEGh/MTCYelsbEFop7FHwu/2X64XTHwKIx1GIoqlaeX6cb4VLIOnnk1jUu0URDgSLoGxaQ7b7GNu53hTWxw7U3kkfn3KF4eY93rcVMS4D6f0pvQVh+vw7KlPj6DLV8bJ4WCnrQPvKBPiVaqXbGhJ13ZrjEFywdl+0bwf1eL0PlkymbLjOc0m9KCjZc8WzAGy2xFMzqDBQm7JxTqZHLbEo324NRU31zhnnWfl9HGsDqsOzfsuBEflR5YLlShd7kBUK9thytxMHgJvph8zQUatAPnhArzJp8pkTo/AE+vjdKgdH1yhqV9l5TU4l07j6QkCd+TlHj4ustbA+8Cjv7yrtmFXP4CUEsDBBQAAAgIAACAn+taBCjKbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSgYmhUaKxWVJKskGSkUFaoq5ZSpJpYmKqWZKlQZKBcaqpUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+scu1TDdAIAAC4FAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+taBCjKbQAAAHgAAAAJACQAAAAAAAAAAAAAAMECAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAeQMAAAAA
+    dataString: UEsDBBQAAAgIAACAn+tM8x3IbgIAACYFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenRsPYOJMemuJ4/SQxBO3kwsXgRajsZAYfcR2Mv7vXQkw1D1Zfrtv9fbtii/CpWmhtEqvNWfPigH5PiP+TL7NxuATHOlOyS3/hCHnnTNb+yQact6o5Qrx2NOMasBqXv6QO+GTIwSd5JXSzYrtIFPGGoQrKgxgSCvr2RKhrxk54s/Nvaec8JTc+dMnnu6j2RmPJUgLepJ6N4/SJFmmAyGdLxbJMu5ZHcnJUtCmBeY7GLmLNOlZcdolSuyuz/EVSiUEN700Yk9taD2jrXHYGCYwTrHVoCeeLxCoge9q63VM6a9VZcD2Tmh6euAaPevqkp+qM7KhZt9p+6DCBQlRkgZZXdXn/xJu4hCutGqehovjyF9ia17u3+ippMZOrJ7CDxPtwaMDFXtaCHivQb6otVZOMgxa7TzVGUgexr+X3rIayv2Id1KvQNeOpg+THebqeziH9o+Z4E3hQ/O0A7ZCBcvDOoDG4fxCwWFZTF8CUa/ij4HfdDfdqj7wyLWxGOq7lF5eoZz2qWQVPPPdOJspLSHAvegWJBX2tMEy9nqGV7HJtVeRR+rfT395HxuexRUlwGN+FF2FNupwGZap1eEZTP3qrOASRtE+8II+ZUrKbsWmngy0rdMVLSe0nePs39UiURondLEsWBkVSVTRmyUrbimFZXEfFdECbknYPS6xTyo2ndDeHpyaHItL3LPhszJba9qGdWeaHtb8s1ETy7ms1LbUAPK1q3ARDhovwYfJVoyjQVuwlsswb/KVE6HKPbD8UigPna6OVtN8rJKTln8o65GcZOE7khMPX3Z5o+GDw8FfPhQ7k/NfUEsDBBQAAAgIAACAn+taBCjKbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrSSgYmhUaKxWVJKskGSkUFaoq5ZSpJpYmKqWZKlQZKBcaqpUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+tM8x3IbgIAACYFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+taBCjKbQAAAHgAAAAJACQAAAAAAAAAAAAAALsCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAcwMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -11391,9 +11391,8 @@ GameObject:
   - component: {fileID: 1521360454}
   - component: {fileID: 1521360458}
   - component: {fileID: 1521360456}
-  - component: {fileID: 1521360457}
   - component: {fileID: 1521360459}
-  - component: {fileID: 1521360460}
+  - component: {fileID: 1521360457}
   - component: {fileID: 1521360461}
   m_Layer: 8
   m_Name: Rat_Player
@@ -11532,7 +11531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1521360458}
-  moveSpeed: 15
+  moveSpeed: 17
   animator: {fileID: 1521360459}
 --- !u!50 &1521360458
 Rigidbody2D:
@@ -11583,103 +11582,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!82 &1521360460
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1521360453}
-  m_Enabled: 0
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f92dbd1625df8a44c9980ececd889196, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &1521360461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11687,7 +11589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521360453}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ac2597c467f54c419d02f511f664e07, type: 3}
   m_Name: 
@@ -12232,6 +12134,7 @@ GameObject:
   - component: {fileID: 1652013911}
   - component: {fileID: 1652013910}
   - component: {fileID: 1652013909}
+  - component: {fileID: 1652013912}
   m_Layer: 0
   m_Name: Cat_Enemy
   m_TagString: Untagged
@@ -12285,7 +12188,7 @@ MonoBehaviour:
   radius: 1.71
   height: 3
   canMove: 1
-  maxSpeed: 8
+  maxSpeed: 17
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -12339,6 +12242,18 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &1652013912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652013907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e114e539c0bcbe84bac5419d395038ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1705549372
 GameObject:
   m_ObjectHideFlags: 0
