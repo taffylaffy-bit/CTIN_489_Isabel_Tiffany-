@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - HidingSpot
+  - Oil
+  - Ketchup
+  - Mop
   layers:
   - Default
   - TransparentFX

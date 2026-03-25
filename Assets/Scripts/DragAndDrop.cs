@@ -2,12 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DragAndDrop : MonoBehaviour, IDragHandler, IPointerDownHandler
+public class DragAndDrop : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDragHandler
 {
     private Vector2 offset;
     private RectTransform rectTransform;
     private Canvas canvas;
-
 
     void Awake()
     {
@@ -39,4 +38,9 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IPointerDownHandler
         }
     }
 
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        CookTrigger trigger = FindObjectOfType<CookTrigger>();
+        trigger.CheckOverlap(rectTransform, this.tag);
+    }
 }
