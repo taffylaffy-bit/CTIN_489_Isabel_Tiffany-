@@ -79,7 +79,7 @@ public class CookTrigger : MonoBehaviour
 
     IEnumerator CookFailScreen()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         cookFailUI.SetActive(true);
         outputImage.gameObject.SetActive(false);
     }

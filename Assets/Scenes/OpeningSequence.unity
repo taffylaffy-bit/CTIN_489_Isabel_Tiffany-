@@ -2419,7 +2419,6 @@ GameObject:
   - component: {fileID: 1129421290}
   - component: {fileID: 1129421289}
   - component: {fileID: 1129421288}
-  - component: {fileID: 1129421287}
   - component: {fileID: 1129421295}
   - component: {fileID: 1129421296}
   m_Layer: 8
@@ -2429,19 +2428,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1129421287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129421286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ac2597c467f54c419d02f511f664e07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
 --- !u!82 &1129421288
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3046,6 +3032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: {fileID: 1391779883}
+  ingredientCounter: {fileID: 1941209719}
 --- !u!50 &1186716950
 Rigidbody2D:
   serializedVersion: 5
@@ -4094,6 +4081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterText: {fileID: 286514837}
+  ingredientAmount: 0
 --- !u!4 &1941209720
 Transform:
   m_ObjectHideFlags: 0

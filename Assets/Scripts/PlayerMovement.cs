@@ -12,8 +12,14 @@ public class PlayerMovement : MonoBehaviour
     private bool hiding = false;
 
     private IAstarAI[] enemies;
+    private Vector2 movement;
 
-    Vector2 movement;
+    public GameObject hideUI;
+
+    private void Awake()
+    {
+        hideUI.SetActive(false);
+    }
 
     private void Start()
     {
@@ -39,23 +45,26 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        // Toggle hiding only when inside a hiding spot
+        // Toggle hiding
         if (canHide && Input.GetKeyDown(KeyCode.E))
         {
-            hiding = true; // <-- the toggle 
+            hiding = !hiding;   // <-- toggle on/off
             UpdateHidingState();
         }
+
+        if (!hiding)
+        {
+            foreach (var enemy in enemies)
+            {
+                enemy.destination = transform.position;
+            }
+        }
+
     }
 
     private void FixedUpdate()
     {
-        // Movement 
         rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
-
-        if (hiding)
-            rb.linearVelocity = movement * moveSpeed;
-        else
-            rb.linearVelocity = Vector2.zero;
     }
 
     private void UpdateHidingState()
@@ -64,37 +73,42 @@ public class PlayerMovement : MonoBehaviour
         {
             Physics2D.IgnoreLayerCollision(8, 9, true);
             rend.sortingOrder = 2;
-            Debug.Log("I'm hiding");
+            hideUI.SetActive(false);
 
-            // Stop enemies from chasing
             foreach (var enemy in enemies)
             {
-                enemy.canMove = false;
-                enemy.destination = enemy.position; // freeze immediately
+                var enemyComponent = enemy as Component;
+                var wander = enemyComponent.GetComponent<EnemyWander>();
+                if (wander != null)
+                    wander.StartWandering();
+
+                enemy.canMove = true;   // allow wandering
             }
         }
         else
         {
             Physics2D.IgnoreLayerCollision(8, 9, false);
             rend.sortingOrder = 5;
-            Debug.Log("I'm not hiding");
 
-            // Restore chasing 
             foreach (var enemy in enemies)
             {
+                var enemyComponent = enemy as Component;
+                var wander = enemyComponent.GetComponent<EnemyWander>();
+                if (wander != null)
+                    wander.StopWandering();
+
                 enemy.canMove = true;
                 enemy.destination = transform.position; // resume chasing
             }
         }
     }
 
-    // Trigger collider on hiding spot
-    private void OnTriggrtEnter2D(Collider2D collision)
+    // Trigger detection
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("HidingSpot"))
-        {
             canHide = true;
-        }
+        hideUI.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -103,10 +117,12 @@ public class PlayerMovement : MonoBehaviour
         {
             canHide = false;
             hiding = false;
+            hideUI.SetActive(false);
             UpdateHidingState();
         }
     }
 
+    /*
     // If triggered, it will check if it has the tag and player will be able to hide
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -125,5 +141,5 @@ public class PlayerMovement : MonoBehaviour
             hiding = false;
             UpdateHidingState();
         }
-    }
+    }*/
 }

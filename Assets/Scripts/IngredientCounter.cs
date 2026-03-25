@@ -5,7 +5,7 @@ public class IngredientCounter : MonoBehaviour
 {
     public TMP_Text counterText;
 
-    private int ingredientAmount;
+    public int ingredientAmount;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

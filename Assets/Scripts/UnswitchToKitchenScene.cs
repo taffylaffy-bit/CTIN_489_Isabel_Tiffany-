@@ -12,7 +12,7 @@ public class UnswitchToKitchenScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ExitCookingScene();
         }
@@ -20,7 +20,7 @@ public class UnswitchToKitchenScene : MonoBehaviour
 
     void ExitCookingScene()
     {
-        SceneManager.LoadScene("OpeningSequence");
-        Debug.Log("Pressing Z and loading Opening Scene");
+        SceneManager.LoadScene("FirstChase");
+        Debug.Log("Pressing Z and loading Chase Scene");
     }
 }
