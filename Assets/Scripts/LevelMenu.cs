@@ -5,12 +5,12 @@ public class LevelMenu : MonoBehaviour
 {
     public void Level1()
     {
-        SceneManager.LoadScene("FirstChase");
+        SceneManager.LoadScene("OpeningSequence");
     }
 
     public void Level2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("FirstChase");
     }
 
     public void Level3()
