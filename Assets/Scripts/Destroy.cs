@@ -2,16 +2,26 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
-    public GameObject video;
+    public GameObject playerObjective;
+    public GameObject ingredientCounter;
+
+    void Awake()
+    {
+        playerObjective.SetActive(false);
+        ingredientCounter.SetActive(false);
+    }
 
     void Start()
     {
-        Destroy(video,28f);
+        Destroy(gameObject, 28f); // destroy THIS object
     }
 
-    void Update()
+    void OnDestroy()
     {
-        
+        if (playerObjective != null)
+            playerObjective.SetActive(true);
+        if (ingredientCounter != null)
+            ingredientCounter.SetActive(true);
     }
 
 }
