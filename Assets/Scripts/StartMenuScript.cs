@@ -30,4 +30,9 @@ public class StartMenuScript : MonoBehaviour
         levelMenu.SetActive(true);
     }
 
+    public void BacktoMenu()
+    {
+        mainMenu.SetActive(true);
+        levelMenu.SetActive(false);
+    }
 }
