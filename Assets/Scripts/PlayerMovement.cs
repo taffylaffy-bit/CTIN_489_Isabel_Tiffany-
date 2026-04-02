@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public float moveSpeed = 8f;
     public Animator animator;
+    public Animator animHide;
 
     private SpriteRenderer rend;
     private bool canHide = false;
@@ -69,11 +70,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateHidingState()
     {
+        animHide.SetBool("IsHiding", hiding);
+        
         if (hiding)
         {
             Physics2D.IgnoreLayerCollision(8, 9, true);
             rend.sortingOrder = 2;
             hideUI.SetActive(false);
+
+            animHide.Play("HideFadingIn", 0, 0f);
 
             foreach (var enemy in enemies)
             {
@@ -89,6 +94,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Physics2D.IgnoreLayerCollision(8, 9, false);
             rend.sortingOrder = 5;
+
+            animHide.Play("HideFadeOut", 0, 0f);
 
             foreach (var enemy in enemies)
             {
