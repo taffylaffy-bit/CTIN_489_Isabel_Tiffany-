@@ -1,27 +1,51 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Destroy : MonoBehaviour
 {
     public GameObject playerObjective;
     public GameObject ingredientCounter;
+    public GameObject skipButton;
+    public Animator fadeOut;
 
     void Awake()
     {
         playerObjective.SetActive(false);
         ingredientCounter.SetActive(false);
+        skipButton.SetActive(false);
     }
 
     void Start()
     {
         Destroy(gameObject, 28f); // destroy THIS object
+        StartCoroutine(SkipButton());
     }
 
     void OnDestroy()
     {
         if (playerObjective != null)
+        {
             playerObjective.SetActive(true);
-        if (ingredientCounter != null)
             ingredientCounter.SetActive(true);
+            fadeOut.Play("Cut Scene Fade Out");
+        }
+             
+        //if (ingredientCounter != null)
+            
     }
 
+    public void Skip()
+    {
+        fadeOut.Play("Cut Scene Fade Out");
+        Destroy(gameObject);
+        skipButton.SetActive(false);
+        //StartCoroutine(SkipCutScene());
+    }
+
+    IEnumerator SkipButton()
+    {
+        yield return new WaitForSeconds(2f);
+        skipButton.SetActive(true);
+    }
 }
