@@ -203,8 +203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -475,8 +475,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -563,8 +563,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: -416}
-  m_SizeDelta: {x: 225.4261, y: 84.6954}
+  m_AnchoredPosition: {x: 397.0574, y: -396.21}
+  m_SizeDelta: {x: 293.2329, y: 124.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726289709
 MonoBehaviour:
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.6929134, b: 0, a: 1}
+  m_Color: {r: 0.84708774, g: 0.37378168, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -696,8 +696,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -686.5623, y: -66.2135}
-  m_SizeDelta: {x: 460.0863, y: 102.5693}
+  m_AnchoredPosition: {x: -686.56, y: -66.2135}
+  m_SizeDelta: {x: 354.8705, y: 102.5693}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &779270580
 MonoBehaviour:
@@ -1073,26 +1073,13 @@ GameObject:
   m_Component:
   - component: {fileID: 889253356}
   - component: {fileID: 889253355}
-  - component: {fileID: 889253354}
   m_Layer: 0
-  m_Name: OpeningMusic
+  m_Name: MenuMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &889253354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889253353}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a8105bf923606441a47359bbc99701a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &889253355
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1241,8 +1228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 434.64905, y: -416}
-  m_SizeDelta: {x: 225.4261, y: 84.6954}
+  m_AnchoredPosition: {x: 746.8362, y: -398}
+  m_SizeDelta: {x: 301.0799, y: 127.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &908087091
 MonoBehaviour:
@@ -1313,7 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1628,7 +1615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1382347168
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2373,8 +2360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -75.899, y: -416}
-  m_SizeDelta: {x: 225.4261, y: 84.6954}
+  m_AnchoredPosition: {x: 45.770264, y: -396.21002}
+  m_SizeDelta: {x: 248.9667, y: 124.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1850747723
 MonoBehaviour:
@@ -2445,7 +2432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9960785, g: 0.6901961, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

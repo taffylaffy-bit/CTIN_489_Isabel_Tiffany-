@@ -5,6 +5,7 @@ public class CutSceneTrigger : MonoBehaviour
 {
     public GameObject fadeOut;
     public GameObject playerObjective;
+    public GameObject pressE;
 
     private IAstarAI[] enemies;
 
@@ -27,6 +28,7 @@ public class CutSceneTrigger : MonoBehaviour
         {
             fadeOut.SetActive(true);
             playerObjective.SetActive(false);
+            pressE.SetActive(false);
 
             // Stop enemies from chasing
             foreach (var enemy in enemies)

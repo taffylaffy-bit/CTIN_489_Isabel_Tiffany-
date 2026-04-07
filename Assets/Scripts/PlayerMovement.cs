@@ -3,18 +3,22 @@ using Pathfinding;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Hiding Parameters")]
+    public Animator animator;
+    public Animator animHide;
+    public AudioSource heartBeat;
+    public GameObject hideUI;
+    
+    [Header("Movement Parameters")]
     public Rigidbody2D rb;
     public float moveSpeed = 8f;
-    public Animator animator;
-
+   
     private SpriteRenderer rend;
     private bool canHide = false;
     private bool hiding = false;
 
     private IAstarAI[] enemies;
-    private Vector2 movement;
-
-    public GameObject hideUI;
+    private Vector2 movement;    
 
     private void Awake()
     {
@@ -69,11 +73,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateHidingState()
     {
+        animHide.SetBool("IsHiding", hiding);
+        
         if (hiding)
         {
             Physics2D.IgnoreLayerCollision(8, 9, true);
             rend.sortingOrder = 2;
             hideUI.SetActive(false);
+
+            animHide.Play("HideFadingIn", 0, 0f);
+            heartBeat.Play();
 
             foreach (var enemy in enemies)
             {
@@ -89,6 +98,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Physics2D.IgnoreLayerCollision(8, 9, false);
             rend.sortingOrder = 5;
+
+            animHide.Play("HideFadeOut", 0, 0f);
+            heartBeat.Stop();
 
             foreach (var enemy in enemies)
             {
@@ -107,8 +119,11 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("HidingSpot"))
+        {
             canHide = true;
-        hideUI.SetActive(true);
+            hideUI.SetActive(true);
+        }
+            
     }
 
     private void OnTriggerExit2D(Collider2D collision)
