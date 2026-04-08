@@ -8,6 +8,8 @@ public class PickUP : MonoBehaviour
     public GameObject pickUpText;
     public GameObject item;
 
+    public AudioSource pickUpNoise;
+
     public IngredientCounter counter;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -40,8 +42,11 @@ public class PickUP : MonoBehaviour
 
         item.SetActive(false);
 
+        pickUpNoise.Play();
+
         // destroys gameobject after a quick second
         Destroy(gameObject, 0.01f);
+
     }
 
     public void OnTriggerEnter2D(Collider2D other)

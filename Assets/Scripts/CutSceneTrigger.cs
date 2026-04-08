@@ -7,6 +7,8 @@ public class CutSceneTrigger : MonoBehaviour
     public GameObject playerObjective;
     public GameObject pressE;
 
+    public AudioSource backgroundMusic;
+
     private IAstarAI[] enemies;
 
     public void Start()
@@ -29,6 +31,7 @@ public class CutSceneTrigger : MonoBehaviour
             fadeOut.SetActive(true);
             playerObjective.SetActive(false);
             pressE.SetActive(false);
+            backgroundMusic.Stop();
 
             // Stop enemies from chasing
             foreach (var enemy in enemies)
