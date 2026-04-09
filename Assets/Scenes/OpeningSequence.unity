@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 103642086}
   - component: {fileID: 103642085}
   - component: {fileID: 103642084}
+  - component: {fileID: 103642087}
   m_Layer: 5
   m_Name: Skip Button
   m_TagString: Untagged
@@ -252,6 +253,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103642082}
   m_CullTransparentMesh: 1
+--- !u!114 &103642087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103642082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3f744f52f757a48afef5456d2c3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: Skip
 --- !u!1 &112137037
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec3f744f52f757a48afef5456d2c3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonName: 
+  buttonName: Resume
 --- !u!1 &253584331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1949,7 +1963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec3f744f52f757a48afef5456d2c3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonName: 
+  buttonName: LoadMenu
 --- !u!1 &549535444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2824,6 +2838,7 @@ GameObject:
   - component: {fileID: 1129421292}
   - component: {fileID: 1129421291}
   - component: {fileID: 1129421289}
+  - component: {fileID: 1129421297}
   - component: {fileID: 1129421290}
   - component: {fileID: 1129421296}
   - component: {fileID: 1129421295}
@@ -3141,6 +3156,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footstepsSound: {fileID: 1129421288}
+--- !u!114 &1129421297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129421286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317d43abda8284c4797a79d2cae14475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1133147574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3287,7 +3314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec3f744f52f757a48afef5456d2c3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonName: 
+  buttonName: Quit
 --- !u!1 &1167837898
 GameObject:
   m_ObjectHideFlags: 0
@@ -4773,7 +4800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 317d43abda8284c4797a79d2cae14475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileLogger: {fileID: 1941209722}
 --- !u!114 &1941209722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5640,8 +5666,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1899970557}
   - {fileID: 1298041279}
+  - {fileID: 1899970557}
   - {fileID: 1941209720}
   - {fileID: 1129421294}
   - {fileID: 1647761329}

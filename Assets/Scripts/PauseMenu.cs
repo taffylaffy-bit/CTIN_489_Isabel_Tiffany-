@@ -60,4 +60,9 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Quitting Game...");
         Application.Quit();
     }
+
+    public void FinalCookingScene()
+    {
+        SceneManager.LoadScene("DistortedCooking");
+    }
 }

@@ -1,33 +1,40 @@
 using UnityEngine;
-using System.IO;
+using UnityEngine.SceneManagement;
 using System;
+using System.IO;
 
 public class TelemetryFileLogger : MonoBehaviour
 {
     string sessionFolder;
+    string levelFolder;
+
     string positionPath;
     string keyPressPath;
     string uiButtonPath;
 
     void Start()
     {
-        // Create a unique session folder using date + time
-        string timestamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
+        // Create session folder
+        string timestamp = DateTime.Now.ToString("yyyy-MM_dd_HH-mm-ss");
         sessionFolder = Path.Combine(Application.persistentDataPath, "Session_" + timestamp);
-
         Directory.CreateDirectory(sessionFolder);
 
-        // File paths
-        positionPath = Path.Combine(sessionFolder, "player_positions.csv");
-        keyPressPath = Path.Combine(sessionFolder, "key_presses.csv");
-        uiButtonPath = Path.Combine(sessionFolder, "ui_buttons.csv");
+        // Create per-level folder
+        string levelName = SceneManager.GetActiveScene().name;
+        levelFolder = Path.Combine(sessionFolder, levelName);
+        Directory.CreateDirectory(levelFolder);
 
-        // Create CSV headers
+        // File paths inside the level folder
+        positionPath = Path.Combine(levelFolder, "player_positions.csv");
+        keyPressPath = Path.Combine(levelFolder, "key_presses.csv");
+        uiButtonPath = Path.Combine(levelFolder, "ui_buttons.csv");
+
+        // CSV headers
         File.WriteAllText(positionPath, "gameTime,realTime,x,y\n");
         File.WriteAllText(keyPressPath, "gameTime,realTime,key\n");
         File.WriteAllText(uiButtonPath, "gameTime,realTime,button\n");
 
-        Debug.Log("Telemetry session folder: " + sessionFolder);
+        Debug.Log("Telemetry folder created: " + levelFolder);
     }
 
     public void LogPosition(Vector3 pos)

@@ -1,11 +1,16 @@
 using UnityEngine;
 using Pathfinding;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class CutSceneTrigger : MonoBehaviour
 {
     public GameObject fadeOut;
     public GameObject playerObjective;
     public GameObject pressE;
+
+    public GameObject finalMeal;
 
     public AudioSource backgroundMusic;
 
@@ -14,6 +19,7 @@ public class CutSceneTrigger : MonoBehaviour
     public void Start()
     {
         fadeOut.SetActive(false);
+        finalMeal.SetActive(false);
 
         AIPath[] aiPaths = FindObjectsOfType<AIPath>();
         enemies = new IAstarAI[aiPaths.Length];
@@ -33,6 +39,8 @@ public class CutSceneTrigger : MonoBehaviour
             pressE.SetActive(false);
             backgroundMusic.Stop();
 
+            StartCoroutine(LoadFinalScene());
+
             // Stop enemies from chasing
             foreach (var enemy in enemies)
             {
@@ -42,4 +50,11 @@ public class CutSceneTrigger : MonoBehaviour
             }
         }
     }
+
+    IEnumerator LoadFinalScene()
+    {
+        yield return new WaitForSeconds(15f);
+        finalMeal.SetActive(true);
+    }
+
 }
