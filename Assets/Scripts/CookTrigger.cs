@@ -16,12 +16,15 @@ public class CookTrigger : MonoBehaviour
     public AudioSource oilSizzle;
 
     public GameObject cookFailUI;
+    public GameObject cookingIns;
+    public GameObject friedNoodles;
 
     private int ingredientCount = 0;
 
     public void Awake()
     {
         cookFailUI.SetActive(false);
+        friedNoodles.SetActive(false);
     }
 
 
@@ -36,19 +39,27 @@ public class CookTrigger : MonoBehaviour
                 backgroundImage.sprite = oilBackground;
                 draggedItem.gameObject.SetActive(false);
                 oilSizzle.Play();
+                ingredientCount++;
                 return;
+
+                if (tag == "Mop")
+                {
+                    friedNoodles.SetActive(true);
+                }
             }
+
+          
 
             if (tag == "Ketchup" || tag == "Mop")
             {
                 ingredientCount++;
                 Debug.Log("Cooked sprite applied!");
-                
+                friedNoodles.SetActive(false);
 
                 // Hide the ingredient
                 draggedItem.gameObject.SetActive(false);
 
-                if (ingredientCount >= 2)
+                if (ingredientCount >= 3)
                 {
                     outputImage.gameObject.SetActive(true);   
                     outputImage.sprite = cookedSprite;
@@ -81,6 +92,7 @@ public class CookTrigger : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         cookFailUI.SetActive(true);
+        cookingIns.SetActive(false);
         outputImage.gameObject.SetActive(false);
     }
 }
