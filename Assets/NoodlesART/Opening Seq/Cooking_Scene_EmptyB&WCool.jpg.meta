@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a737779e5c256d143afb40cd6503af53
+guid: 613adc30aacce474588248bf6826ba2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3253078841185179518
-    second: Oil_Recolored_0
+      213: 4050801371573684809
+    second: Cooking_Scene_EmptyB&WCoo;_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Oil_Recolored_0
+      name: Cooking_Scene_EmptyB&WCoo;_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 21
-        width: 183
-        height: 715
+        x: 0
+        y: 0
+        width: 1920
+        height: 1078
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e779e2378f1452d20800000000000000
-      internalID: 3253078841185179518
+      spriteID: 94a8058a266573830800000000000000
+      internalID: 4050801371573684809
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Oil_Recolored_0: 3253078841185179518
+      Cooking_Scene_EmptyB&WCoo;_0: 4050801371573684809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

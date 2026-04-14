@@ -520,7 +520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 77d794f365657a64fbb119fa29879a0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 613adc30aacce474588248bf6826ba2e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 82f806f6d8caa6d4d8a39cec4e9acaff, type: 3}
+  m_Sprite: {fileID: -4417457722211578713, guid: d2f71d037cf1aa9469c00e01d69b4ef2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2912,7 +2912,7 @@ MonoBehaviour:
   outputImage: {fileID: 1942326437}
   cookedSprite: {fileID: 21300000, guid: 317c9283333c2064cbf1ab1b9997c329, type: 3}
   backgroundImage: {fileID: 447978933}
-  oilBackground: {fileID: 21300000, guid: 6e0b0546b1ff0594fb45e9a86d2027c4, type: 3}
+  oilBackground: {fileID: 21300000, guid: 84fc9f5218c9ee548bf51cbb772379ab, type: 3}
   oilSizzle: {fileID: 1536614062}
   cookFailUI: {fileID: 440212950}
   cookingIns: {fileID: 1038164123}
@@ -3224,7 +3224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b67f76ff37e852a4baa9f4a590155313, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d8c3dac3c0f60242b332f0ee8aa676d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3829,7 +3829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18898a3850d53284b97bb205a10d67ec, type: 3}
+  m_Sprite: {fileID: 4251662086840686324, guid: d38b3a435fdc81f42a1a2fd9e8760607, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

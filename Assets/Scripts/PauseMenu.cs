@@ -61,8 +61,10 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
     }
 
+    // Button to go to the next scene at the end of the chase 
     public void FinalCookingScene()
     {
+        Debug.Log("Final Meal will comentce!");
         SceneManager.LoadScene("DistortedCooking");
     }
 }

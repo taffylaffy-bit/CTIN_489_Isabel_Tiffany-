@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class CutSceneTrigger : MonoBehaviour
 {
-    public GameObject fadeOut;
+    public GameObject endingCutScene;
     public GameObject playerObjective;
     public GameObject pressE;
 
@@ -18,7 +18,7 @@ public class CutSceneTrigger : MonoBehaviour
 
     public void Start()
     {
-        fadeOut.SetActive(false);
+        endingCutScene.SetActive(false);
         finalMeal.SetActive(false);
 
         AIPath[] aiPaths = FindObjectsOfType<AIPath>();
@@ -34,7 +34,7 @@ public class CutSceneTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            fadeOut.SetActive(true);
+            endingCutScene.SetActive(true);
             playerObjective.SetActive(false);
             pressE.SetActive(false);
             backgroundMusic.Stop();
@@ -53,7 +53,7 @@ public class CutSceneTrigger : MonoBehaviour
 
     IEnumerator LoadFinalScene()
     {
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(17f);
         finalMeal.SetActive(true);
     }
 

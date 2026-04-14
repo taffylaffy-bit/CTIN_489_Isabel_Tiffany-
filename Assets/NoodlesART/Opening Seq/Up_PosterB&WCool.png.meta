@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a737779e5c256d143afb40cd6503af53
+guid: f12d361fe49836f41b299a730f1cd2bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3253078841185179518
-    second: Oil_Recolored_0
+      213: -5985923097030678541
+    second: Up_PosterB&WCool_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Oil_Recolored_0
+      name: Up_PosterB&WCool_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 21
-        width: 183
-        height: 715
+        x: 4
+        y: 2
+        width: 152
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e779e2378f1452d20800000000000000
-      internalID: 3253078841185179518
+      spriteID: 3f72ea478aabdeca0800000000000000
+      internalID: -5985923097030678541
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Oil_Recolored_0: 3253078841185179518
+      Up_PosterB&WCool_0: -5985923097030678541
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

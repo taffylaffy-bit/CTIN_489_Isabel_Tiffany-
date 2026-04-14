@@ -6411,8 +6411,9 @@ GameObject:
   - component: {fileID: 744992632}
   - component: {fileID: 744992631}
   - component: {fileID: 744992630}
+  - component: {fileID: 744992634}
   m_Layer: 5
-  m_Name: FInal Meal
+  m_Name: FInal Meal Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6532,6 +6533,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744992628}
   m_CullTransparentMesh: 1
+--- !u!114 &744992634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744992628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3f744f52f757a48afef5456d2c3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonName: Final Meal
 --- !u!1 &759887156
 GameObject:
   m_ObjectHideFlags: 0
@@ -7216,7 +7230,7 @@ Transform:
   m_GameObject: {fileID: 852910932}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5689, y: 36.1438, z: 10.368642}
+  m_LocalPosition: {x: 2.99, y: 38.19, z: 10.368642}
   m_LocalScale: {x: 10.603, y: 6.5541, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9321,12 +9335,12 @@ GameObject:
   - component: {fileID: 1027692639}
   - component: {fileID: 1027692638}
   m_Layer: 5
-  m_Name: PauseMenu
+  m_Name: PauseMenuUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1027692637
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10106,7 +10120,7 @@ GameObject:
   - component: {fileID: 1188901135}
   - component: {fileID: 1188901134}
   m_Layer: 0
-  m_Name: HeatbeatFast
+  m_Name: HeartbeatFast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12012,7 +12026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f17104c3384a049a988717e3e6dd47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOut: {fileID: 1817308508}
+  endingCutScene: {fileID: 1817308508}
   playerObjective: {fileID: 1472957198}
   pressE: {fileID: 280563388}
   finalMeal: {fileID: 744992628}
@@ -12543,7 +12557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -13383,7 +13397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472957199}
   m_Layer: 5
-  m_Name: PlayerObjective
+  m_Name: PlayerObjectiveUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13856,7 +13870,7 @@ Transform:
   m_GameObject: {fileID: 1521360453}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.69, y: -11.43, z: 0}
+  m_LocalPosition: {x: 132, y: 19.7, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15750,7 +15764,7 @@ GameObject:
   - component: {fileID: 1652834555}
   - component: {fileID: 1652834554}
   m_Layer: 5
-  m_Name: DeathPanel
+  m_Name: DeathUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16677,12 +16691,12 @@ GameObject:
   - component: {fileID: 1817308510}
   - component: {fileID: 1817308512}
   m_Layer: 5
-  m_Name: FadeOut
+  m_Name: EndingCutScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &1817308510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16722,11 +16736,11 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1201540842}
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 9247c4edc315b124688992a3891284ff, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 1
+  m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
@@ -16740,7 +16754,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
@@ -17933,8 +17947,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 744992629}
   - {fileID: 1817308511}
+  - {fileID: 744992629}
   - {fileID: 1548574278}
   - {fileID: 1027692637}
   - {fileID: 1472957199}
@@ -19430,135 +19444,6 @@ PolygonCollider2D:
       - {x: 0.33672267, y: 1.8889009}
       - {x: 0.32207066, y: 1.9035529}
   m_UseDelaunayMesh: 0
---- !u!1 &2024728966
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2024728968}
-  - component: {fileID: 2024728967}
-  m_Layer: 0
-  m_Name: HeatbeatSlow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &2024728967
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024728966}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 03f3ae5e23ffb9c448b20ceff0a6c006, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &2024728968
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024728966}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -743.97815, y: 642.1149, z: -9.369615}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2041405568
 GameObject:
   m_ObjectHideFlags: 0
@@ -20081,5 +19966,4 @@ SceneRoots:
   - {fileID: 59705009}
   - {fileID: 1287628158}
   - {fileID: 1188901135}
-  - {fileID: 2024728968}
   - {fileID: 898575037}
