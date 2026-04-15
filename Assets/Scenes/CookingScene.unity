@@ -437,7 +437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &440212951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1021,17 +1021,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: This ... doesn't look right. I'm missing a key ingredient. I'll go to the
-    alley to look for more ingredients.
+    alley to look for the perfect ingredient.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ec9daa6b595d21b4eb5e0156fea721c6, type: 2}
-  m_sharedMaterial: {fileID: -8745834779824869024, guid: ec9daa6b595d21b4eb5e0156fea721c6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b4898270e5739564c86e8e2f879a98fa, type: 2}
+  m_sharedMaterial: {fileID: -6085468550709703153, guid: b4898270e5739564c86e8e2f879a98fa, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278221311
-  m_fontColor: {r: 1, g: 0.47550905, b: 0, a: 1}
+    rgba: 4278250239
+  m_fontColor: {r: 1, g: 0.91711116, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1054,7 +1054,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2279,7 +2279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21706307, g: 0.20682424, b: 0.20682424, a: 0.47843137}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.62352943}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

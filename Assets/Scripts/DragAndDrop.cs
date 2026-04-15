@@ -40,7 +40,22 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IPointerDownHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        CookTrigger trigger = FindObjectOfType<CookTrigger>();
-        trigger.CheckOverlap(rectTransform, this.tag);
+        // Try FinalCookTrigger first
+        FinalCookTrigger finalTrigger = FindObjectOfType<FinalCookTrigger>();
+        if (finalTrigger != null)
+        {
+            finalTrigger.CheckOverlap(rectTransform, this.tag);
+            return;
+        }
+
+        // Try original CookTrigger
+        CookTrigger cookTrigger = FindObjectOfType<CookTrigger>();
+        if (cookTrigger != null)
+        {
+            cookTrigger.CheckOverlap(rectTransform, this.tag);
+            return;
+        }
+
+        Debug.LogWarning("No cook trigger found in this scene.");
     }
 }

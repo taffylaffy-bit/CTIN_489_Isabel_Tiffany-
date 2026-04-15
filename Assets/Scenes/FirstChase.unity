@@ -948,6 +948,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &115985475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115985476}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115985476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115985475}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1282.6898, y: 671.09204, z: -7.5661488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 898575037}
+  - {fileID: 1188901135}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &196720511
 GameObject:
   m_ObjectHideFlags: 0
@@ -6436,8 +6469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: -254.74}
-  m_SizeDelta: {x: 393.8008, y: 78.4808}
+  m_AnchoredPosition: {x: -0.0000076294, y: 231}
+  m_SizeDelta: {x: 713.0139, y: 56.257}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &744992630
 MonoBehaviour:
@@ -7529,13 +7562,13 @@ Transform:
   m_GameObject: {fileID: 898575036}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1620388, y: 36.28192, z: -0.96917415}
+  m_LocalPosition: {x: -1283.8518, y: -634.8101, z: 6.5969744}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 947699681}
   - {fileID: 574294752}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 115985476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &912502249
 GameObject:
@@ -10231,12 +10264,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188901133}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -743.97815, y: 642.1149, z: -9.369615}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2026.668, y: -28.977112, z: -1.8034658}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 115985476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1196494591
 GameObject:
@@ -11961,6 +11994,7 @@ GameObject:
   - component: {fileID: 1287628157}
   - component: {fileID: 1287628156}
   - component: {fileID: 1287628155}
+  - component: {fileID: 1287628159}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -12101,6 +12135,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287628159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287628154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98702090bfd6b55459f6fc694e9f1813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1301313491
 GameObject:
   m_ObjectHideFlags: 0
@@ -12563,7 +12609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cook the Final Meal
+  m_text: 'Press Space to Cook the FINAL meal '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4898270e5739564c86e8e2f879a98fa, type: 2}
   m_sharedMaterial: {fileID: -6085468550709703153, guid: b4898270e5739564c86e8e2f879a98fa, type: 2}
@@ -16690,13 +16736,13 @@ GameObject:
   - component: {fileID: 1817308511}
   - component: {fileID: 1817308510}
   - component: {fileID: 1817308512}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: EndingCutScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &1817308510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16705,25 +16751,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817308508}
   m_CullTransparentMesh: 1
---- !u!224 &1817308511
-RectTransform:
+--- !u!4 &1817308511
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817308508}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1915476960}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 85.8114, y: 71.5095}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!328 &1817308512
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -16740,7 +16782,7 @@ VideoPlayer:
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 2
+  m_RenderMode: 1
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
@@ -16754,7 +16796,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
@@ -17947,7 +17989,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1817308511}
   - {fileID: 744992629}
   - {fileID: 1548574278}
   - {fileID: 1027692637}
@@ -19956,14 +19997,14 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1612589471}
-  - {fileID: 1213721927}
   - {fileID: 1031438685}
   - {fileID: 1907813972}
+  - {fileID: 1213721927}
+  - {fileID: 115985476}
   - {fileID: 1521360455}
   - {fileID: 1652013908}
   - {fileID: 265470382}
   - {fileID: 1915476960}
   - {fileID: 59705009}
+  - {fileID: 1817308511}
   - {fileID: 1287628158}
-  - {fileID: 1188901135}
-  - {fileID: 898575037}
