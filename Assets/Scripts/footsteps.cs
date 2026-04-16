@@ -9,6 +9,8 @@ public class footsteps : MonoBehaviour
     void Update()
     {
         if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)){
+
+            footstepsSound.pitch = UnityEngine.Random.Range(1f, 1.5f);
             footstepsSound.enabled = true;
         }
         else

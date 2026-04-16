@@ -18,7 +18,7 @@ public class Destroy : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, 28f); // destroy THIS object
+        Destroy(gameObject, 21f); // destroy THIS object
         StartCoroutine(SkipButton());
     }
 
@@ -28,6 +28,7 @@ public class Destroy : MonoBehaviour
         {
             playerObjective.SetActive(true);
             ingredientCounter.SetActive(true);
+            skipButton.SetActive(false);
             fadeOut.Play("Cut Scene Fade Out");
         }
              

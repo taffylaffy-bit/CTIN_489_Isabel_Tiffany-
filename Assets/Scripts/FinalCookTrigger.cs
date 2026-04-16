@@ -26,6 +26,7 @@ public class FinalCookTrigger : MonoBehaviour
     
     [Header("Ending Animation")]
     public Animator gameEndingAnimator;
+    public Animator gameEndingUIAnim;
     
     private int ingredientCount = 0;
 
@@ -121,6 +122,9 @@ public class FinalCookTrigger : MonoBehaviour
         
         gameEndingAnimator.gameObject.SetActive(true);
         gameEndingAnimator.Play("GameEnding");
+
+        gameEndingUIAnim.gameObject.SetActive(true);
+        gameEndingUIAnim.Play("GameEndingUI");
 
         oilSizzle.Stop();
         gore.Play();

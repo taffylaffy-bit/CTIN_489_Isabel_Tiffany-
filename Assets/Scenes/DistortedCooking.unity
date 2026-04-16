@@ -1161,10 +1161,10 @@ RectTransform:
   - {fileID: 1399159513}
   - {fileID: 1366710537}
   - {fileID: 2075961624}
-  - {fileID: 674314472}
   - {fileID: 130732691}
   - {fileID: 2123866751}
   - {fileID: 975836392}
+  - {fileID: 674314472}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1531,13 +1531,14 @@ GameObject:
   - component: {fileID: 975836392}
   - component: {fileID: 975836394}
   - component: {fileID: 975836393}
+  - component: {fileID: 975836395}
   m_Layer: 5
   m_Name: GameEndingUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &975836392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1656,6 +1657,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975836391}
   m_CullTransparentMesh: 1
+--- !u!95 &975836395
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975836391}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8893ba24c9db22f4c873b83c6e1e0b4d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1066100353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,7 +2512,7 @@ MonoBehaviour:
   outputImage: {fileID: 1366710538}
   cookedSprite: {fileID: 21300000, guid: ed7878daf6bef814abd09c116a6df76f, type: 3}
   psychBackgroundImage: {fileID: 1066100354}
-  psychOilBackground: {fileID: 21300000, guid: 7f603f4da2a71e64dbea988cd088ff39, type: 3}
+  psychOilBackground: {fileID: 21300000, guid: 2b0ce5675ba16a949a87ff72dbc663de, type: 3}
   oilSizzle: {fileID: 2027759424}
   gore: {fileID: 631520705}
   slurp: {fileID: 1973641361}
@@ -2498,6 +2521,7 @@ MonoBehaviour:
   friedBrains: {fileID: 1399159512}
   gameEndingUI: {fileID: 975836391}
   gameEndingAnimator: {fileID: 2123866752}
+  gameEndingUIAnim: {fileID: 975836395}
 --- !u!1 &1500655611
 GameObject:
   m_ObjectHideFlags: 0
