@@ -1,12 +1,17 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class UnswitchToKitchenScene : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
+    public Animator animator;
+    public GameObject panel;
+
     void Start()
     {
-        
+        panel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -14,13 +19,17 @@ public class UnswitchToKitchenScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            ExitCookingScene();
+            panel.SetActive(true);
+            StartCoroutine(ExitCookingScene());
+            animator.Play("SwitchToChase");
+            Debug.Log("Loading Chase Scene...");
         }
     }
 
-    void ExitCookingScene()
+    IEnumerator ExitCookingScene()
     {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("FirstChase");
-        Debug.Log("Pressing Z and loading Chase Scene");
+        
     }
 }

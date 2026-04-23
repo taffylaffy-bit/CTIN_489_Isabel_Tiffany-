@@ -12,8 +12,11 @@ public class CookTrigger : MonoBehaviour
     [Header("UI Background")]
     [SerializeField] private Image backgroundImage;
     [SerializeField] private Sprite oilBackground;
+    [SerializeField] private Sprite brainAndOilBackground;
+
 
     public AudioSource oilSizzle;
+    public Animator animator;
 
     public GameObject cookFailUI;
     public GameObject cookingIns;
@@ -42,18 +45,20 @@ public class CookTrigger : MonoBehaviour
                 ingredientCount++;
                 return;
 
-                if (tag == "Mop")
-                {
-                    friedNoodles.SetActive(true);
-                }
             }
 
-          
+            if (tag == "Mop")
+            {
+                backgroundImage.sprite = brainAndOilBackground;
+                draggedItem.gameObject.SetActive(false);
+                //friedBrains.SetActive(true);
+                
+            }
 
             if (tag == "Ketchup" || tag == "Mop")
             {
                 ingredientCount++;
-                Debug.Log("Cooked sprite applied!");
+                Debug.Log("Spaghetti Cooked...failed");
                 friedNoodles.SetActive(false);
 
                 // Hide the ingredient
@@ -90,8 +95,11 @@ public class CookTrigger : MonoBehaviour
 
     IEnumerator CookFailScreen()
     {
+        Debug.Log("CookFailScreen running...");
         yield return new WaitForSeconds(0.5f);
         cookFailUI.SetActive(true);
+        animator.Play("FailCooked");
+
         cookingIns.SetActive(false);
         outputImage.gameObject.SetActive(false);
     }
