@@ -7,6 +7,7 @@ public class Destroy : MonoBehaviour
     public GameObject playerObjective;
     public GameObject ingredientCounter;
     public GameObject skipButton;
+    public AudioSource audio;
     public Animator fadeOut;
 
     void Awake()
@@ -30,6 +31,7 @@ public class Destroy : MonoBehaviour
             ingredientCounter.SetActive(true);
             skipButton.SetActive(false);
             fadeOut.Play("Cut Scene Fade Out");
+            audio.Play();
         }
              
         //if (ingredientCounter != null)

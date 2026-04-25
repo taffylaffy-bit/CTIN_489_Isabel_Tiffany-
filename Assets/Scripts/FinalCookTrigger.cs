@@ -27,8 +27,11 @@ public class FinalCookTrigger : MonoBehaviour
     [Header("Ending Animation")]
     public Animator gameEndingAnimator;
     public Animator gameEndingUIAnim;
+    public Animator finalCook;
     
     private int ingredientCount = 0;
+
+    private bool timeToEat = false;
 
     public void Awake()
     {
@@ -38,6 +41,26 @@ public class FinalCookTrigger : MonoBehaviour
         outputImage.gameObject.SetActive(false);
     }
 
+    public void Update()
+    {
+        if (timeToEat && Input.GetKeyDown(KeyCode.E))
+        {
+            finalCook.Play("JumpScareCook");
+
+
+            gameEndingAnimator.gameObject.SetActive(true);
+            gameEndingAnimator.Play("GameEnding");
+
+            gameEndingUIAnim.gameObject.SetActive(true);
+            gameEndingUIAnim.Play("GameEndingUI");
+
+            oilSizzle.Stop();
+            gore.Play();
+            slurp.Play();
+
+            gameEndingUI.SetActive(true);
+        }
+    }
 
     public void CheckOverlap(RectTransform draggedItem, string tag)
     {
@@ -110,13 +133,19 @@ public class FinalCookTrigger : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         
         finalCookUI.SetActive(true);
+        finalCook.Play("SuccessfulCook");
+
         cookingIns.SetActive(false);
         outputImage.gameObject.SetActive(false);
+
+        timeToEat = true;
         
-        StartCoroutine(GameEnding());
+        //StartCoroutine(GameEnding());
+
+        
     }
 
-    IEnumerator GameEnding()
+    /*IEnumerator GameEnding()
     {
         yield return new WaitForSeconds(10f);
         
@@ -131,6 +160,6 @@ public class FinalCookTrigger : MonoBehaviour
         slurp.Play();
         
         gameEndingUI.SetActive(true);
-    }
+    }*/
 
 }
