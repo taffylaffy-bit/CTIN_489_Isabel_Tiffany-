@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 664386231af5902449f1bf8a16d1a73b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -173109894974114321
+    second: berklee_logo_0
+  - first:
+      213: -7344418650321406052
+    second: berklee_logo_1
+  - first:
+      213: 742195135932202350
+    second: berklee_logo_2
+  - first:
+      213: -1643209846537426344
+    second: berklee_logo_3
+  - first:
+      213: 3877393572137835476
+    second: berklee_logo_4
+  - first:
+      213: -4101749365255331613
+    second: berklee_logo_5
+  - first:
+      213: 4870826751478908714
+    second: berklee_logo_6
+  - first:
+      213: 4396953709405432419
+    second: berklee_logo_7
+  - first:
+      213: -3503243542943176569
+    second: berklee_logo_8
+  - first:
+      213: -3620331055286695434
+    second: berklee_logo_9
+  - first:
+      213: -7263901722298159210
+    second: berklee_logo_10
+  - first:
+      213: 6046898414574139649
+    second: berklee_logo_11
+  - first:
+      213: 3325450695463064469
+    second: berklee_logo_12
+  - first:
+      213: -1802853972463981505
+    second: berklee_logo_13
+  - first:
+      213: 4999819980376714416
+    second: berklee_logo_14
+  - first:
+      213: -614989766015624424
+    second: berklee_logo_15
+  - first:
+      213: 792791457387601770
+    second: berklee_logo_16
+  - first:
+      213: 8548354666395734645
+    second: berklee_logo_17
+  - first:
+      213: 6927757864530051473
+    second: berklee_logo_18
+  - first:
+      213: -163540963798633457
+    second: berklee_logo_19
+  - first:
+      213: 3165046601435943057
+    second: berklee_logo_20
+  - first:
+      213: 5212451776004614901
+    second: berklee_logo_21
+  - first:
+      213: -7712289461019080422
+    second: berklee_logo_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: berklee_logo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 146
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe576fab77df89df0800000000000000
+      internalID: -173109894974114321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 66
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97b6d16622631a90800000000000000
+      internalID: -7344418650321406052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 64
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6df2473b8ecc4a00800000000000000
+      internalID: 742195135932202350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 66
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a66b5c9552239e0800000000000000
+      internalID: -1643209846537426344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 65
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db98a919e44fc530800000000000000
+      internalID: 3877393572137835476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 66
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0a54e2fa8a317c0800000000000000
+      internalID: -4101749365255331613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 64
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27ce5caf17a89340800000000000000
+      internalID: 4870826751478908714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 64
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a62f64a1e150d30800000000000000
+      internalID: 4396953709405432419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 12
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788e0350f8af16fc0800000000000000
+      internalID: -3503243542943176569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 12
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f94258261002cdc0800000000000000
+      internalID: -3620331055286695434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 12
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fe11f8edf613b90800000000000000
+      internalID: -7263901722298159210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 12
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1097099f116eae350800000000000000
+      internalID: 6046898414574139649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_12
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 12
+        width: 45
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593d62dd9cf562e20800000000000000
+      internalID: 3325450695463064469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_13
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ce16d2dd9faf6e0800000000000000
+      internalID: -1802853972463981505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 12
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc214f28cde26540800000000000000
+      internalID: 4999819980376714416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 12
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b5320f01e1777f0800000000000000
+      internalID: -614989766015624424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_16
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f5d8e41af800b00800000000000000
+      internalID: 792791457387601770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_17
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 12
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5721298274bd1a670800000000000000
+      internalID: 8548354666395734645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_18
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 12
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1918b3da217542060800000000000000
+      internalID: 6927757864530051473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 12
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04be822c5cfabdf0800000000000000
+      internalID: -163540963798633457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_20
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 12
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19095286d118ceb20800000000000000
+      internalID: 3165046601435943057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_21
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 12
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faeb950649565840800000000000000
+      internalID: 5212451776004614901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berklee_logo_22
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 12
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1908feb89178f490800000000000000
+      internalID: -7712289461019080422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      berklee_logo_0: -173109894974114321
+      berklee_logo_1: -7344418650321406052
+      berklee_logo_10: -7263901722298159210
+      berklee_logo_11: 6046898414574139649
+      berklee_logo_12: 3325450695463064469
+      berklee_logo_13: -1802853972463981505
+      berklee_logo_14: 4999819980376714416
+      berklee_logo_15: -614989766015624424
+      berklee_logo_16: 792791457387601770
+      berklee_logo_17: 8548354666395734645
+      berklee_logo_18: 6927757864530051473
+      berklee_logo_19: -163540963798633457
+      berklee_logo_2: 742195135932202350
+      berklee_logo_20: 3165046601435943057
+      berklee_logo_21: 5212451776004614901
+      berklee_logo_22: -7712289461019080422
+      berklee_logo_3: -1643209846537426344
+      berklee_logo_4: 3877393572137835476
+      berklee_logo_5: -4101749365255331613
+      berklee_logo_6: 4870826751478908714
+      berklee_logo_7: 4396953709405432419
+      berklee_logo_8: -3503243542943176569
+      berklee_logo_9: -3620331055286695434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
