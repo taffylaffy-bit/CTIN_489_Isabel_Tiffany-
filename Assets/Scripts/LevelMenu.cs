@@ -5,7 +5,7 @@ public class LevelMenu : MonoBehaviour
 {
     public void Level1()
     {
-        SceneManager.LoadScene("OpeningSequence");
+        SceneManager.LoadScene("CutScene");
     }
 
     public void Level2()
