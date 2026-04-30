@@ -17,5 +17,7 @@ public class GameManager : MonoBehaviour
             int currentIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentIndex);
         }
+
+       
     }
 }
