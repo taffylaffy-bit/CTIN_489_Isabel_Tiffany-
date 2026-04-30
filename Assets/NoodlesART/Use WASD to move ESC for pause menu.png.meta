@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3ed9ba4d5b772fb4fa8f3aa42a6d68ae
+guid: 7950b0d53ddd47741856bbdd26502ac4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8634400034723631290
-    second: Noodle_Icon_0
+      213: -1746885516254244791
+    second: Use WASD to move ESC for pause menu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Noodle_Icon_0
+      name: Use WASD to move ESC for pause menu_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 8
-        width: 211
-        height: 194
+        x: 392
+        y: 25
+        width: 1109
+        height: 1037
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab09256a51d83d770800000000000000
-      internalID: 8634400034723631290
+      spriteID: 940146cd0e0d1c7e0800000000000000
+      internalID: -1746885516254244791
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Noodle_Icon_0: 8634400034723631290
+      Use WASD to move ESC for pause menu_0: -1746885516254244791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,6 +6,7 @@ public class DeathScript : MonoBehaviour
 {
     public GameObject retry;
     public GameObject quit;
+    public AudioSource roar;
 
     public Animator deathPanelAnimator;
 
@@ -28,6 +29,7 @@ public class DeathScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("I killed the rat");
+            roar.Play();
             StartCoroutine(DeathScene());
         }
     }
